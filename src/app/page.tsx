@@ -17,12 +17,18 @@ export const games = [
 		image: "/images/sudoku.png",
 		link: "/sudoku",
 	},
+	{
+		name: "Memory Game",
+		description: "A classic card-matching game that tests your memory skills.",
+		image: "/images/memory.png",
+		link: "/memory-game",
+	},
 ];
 
 export default function Home() {
 	return (
 		<div>
-			<main className="relative w-screen max-h-screen h-[720px] bg-[url('/images/home.jpg')] bg-cover bg-center flex items-center justify-center">
+			<main className="relative w-screen max-h-screen h-[720px] bg-[url('/images/image.jpg')] bg-cover bg-center flex items-center justify-center">
 				<section className="absolute inset-0 bg-black/70 flex flex-col items-center justify-center gap-4">
 					<p className=" text-primary text-[16px]">Mini Arcade</p>
 					<p className="text-white font-orbitron text-[64px] text-center font-bold">
